@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Menu-Option {
+  font-family: "League Spartan";
+  font-weight: 500;
+}
+
+.Menu-Option:hover {
+  font-weight: 700;
+}
