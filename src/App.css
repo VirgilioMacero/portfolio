@@ -10,3 +10,25 @@
 .Menu-Option:hover {
   font-weight: 700;
 }
+
+.Title {
+  font-family: "League Spartan";
+  font-weight: 500;
+  color: #2b48c1;
+}
+
+.Card-Title {
+  font-family: "League Spartan";
+  font-weight: 500;
+  color: #100e8d;
+}
+
+.Card-Link {
+  font-family: "League Spartan";
+  font-weight: 500;
+  color: #100e8d;
+}
+
+.photo-holder {
+  border: #2b48c1 solid 10px;
+}
