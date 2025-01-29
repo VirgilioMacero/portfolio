@@ -69,7 +69,7 @@ export default function NavBar() {
         </div>
       </div>
 
-      <div>
+      <div className="absolute w-full">
         <AnimatePresence>
           {navButton ? (
             <motion.ul
