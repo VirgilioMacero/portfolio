@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ProfilePhoto from "../assets/Virgilio-Profile-Photo.webp";
 import Card from "../Components/Card";
-import Text from "../Data/Text.json";
+import db from "../Data/db.json";
 
 export default function Presentation() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -25,8 +25,8 @@ export default function Presentation() {
           <Card
             text={
               width > 375
-                ? Text.db.aboutMe.slice(0, 300) + "..."
-                : Text.db.aboutMe.slice(0, 150) + "..."
+                ? db.aboutMe.slice(0, 300) + "..."
+                : db.aboutMe.slice(0, 150) + "..."
             }
           />
         </div>
@@ -35,8 +35,8 @@ export default function Presentation() {
           <Card
             text={
               width > 375
-                ? Text.db.aboutMe.slice(0, 300) + "..."
-                : Text.db.aboutMe.slice(0, 150) + "..."
+                ? db.aboutMe.slice(0, 300) + "..."
+                : db.aboutMe.slice(0, 150) + "..."
             }
           />
         </div>

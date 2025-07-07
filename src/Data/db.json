@@ -1,0 +1,17 @@
+{
+    "aboutMe": "Quize excepteur culpa minim nulla reprehenderit reprehenderit. Deserunt eu sunt et ea qui eiusmod eiusmod eiusmod labore aliqua quis exercitation. Pariatur qui excepteur quis dolor occaecat occaecat laborum enim commodo dolore magna. Ex esse velit id anim in ex cupidatat consectetur magna. Cillum duis magna incididunt Lorem labore eu exercitation nulla est tempor nisi nostrud. Nostrud mollit cupidatat tempor est cillum do adipisicing minim nulla ea dolor aliquip laboris velit.Dolore officia magna magna minim non labore non. Non ullamco consequat ullamco adipisicing tempor proident ipsum ad. Ea voluptate sit voluptate ipsum in. Occaecat magna enim culpa non dolore non amet culpa Lorem do dolor minim exercitation proident. Proident cupidatat id ex occaecat esse amet irure. Voluptate exercitation esse minim nisi nisi proident laboris ut eiusmod non enim. Dolore aute proident ipsum consectetur. Sint proident consectetur ipsum adipisicing. Ipsum voluptate tempor sunt dolor do fugiat Lorem in magna. Nisi pariatur consequat nisi labore consequat consectetur laborum proident labore adipisicing proident deserunt reprehenderit. In aute laboris deserunt cupidatat est id pariatur Lorem. Fugiat aliqua cupidatat velit id veniam magna.Incididunt mollit non culpa elit non laboris aliquip aute et elit. Eiusmod laborum ipsum duis laboris fugiat dolore eu veniam ea anim. Dolore in sunt velit excepteur nostrud commodo do. Ullamco et elit do laborum in ad officia. Lorem labore id non nulla nisi aliqua elit Lorem do incididunt id. Id laborum veniam ex dolor eiusmod quis ea excepteur sit laborum anim deserunt consequat. Velit elit magna id ipsum incididunt incididunt sint nisi.Sunt sint veniam consectetur incididunt officia dolor. Sint officia qui fugiat duis amet et fugiat deserunt. Ut laborum aute consequat sint nulla anim incididunt esse. Excepteur aliquip proident ad eu excepteur nostrud laborum elit nisi cillum culpa. Excepteur duis magna minim cillum et eiusmod ullamco labore. Anim est consectetur laborum mollit proident Lorem elit consectetur.",
+    "projects": [
+        {
+            "name": "MMBB.ES",
+            "link": "mmbb",
+            "text": "MMBB.ES is a project was for a company of cleaning in Spain, using a template in Wordpress and multiple plugins for good eficienty",
+            "image": "public/assets/MMBB.webp"
+        },
+        {
+            "name": "Portfolio",
+            "link": "portfolio",
+            "text": "This is my personal portfolio, built with React and Tailwind CSS, showcasing my skills and projects.",
+            "image": "public/assets/Virgilio-logo.svg"
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 import NavBar from "../Components/NavBar";
 import Presentation from "../Sections/Presentation";
+import Projects from "../Sections/Projects";
 import Services from "../Sections/Services";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="container mx-auto">
         <Presentation />
         <Services />
+        <Projects />
       </div>
     </>
   );

@@ -3,9 +3,9 @@ import DEVImageUrl from "../assets/DEV-Image.svg";
 import EngineImageUrl from "../assets/Engine-Image.svg";
 export default function Services() {
   return (
-    <div className="mt-32">
+    <div className="my-32">
       <h1 className=" Segment-Title justify-end text-5xl">Services</h1>
-      <div className="grid grid-cols-4 gap-10 mt-2 max-[1537px]:grid-cols-3 max-[1024px]:grid-cols-1">
+      <div className="grid grid-cols-4 gap-10 mt-10 max-[1537px]:grid-cols-3 max-[1024px]:grid-cols-1">
         <div className="flex flex-col items-center">
           <img src={EngineImageUrl} className="" alt="Network Managment" />
           <h2 className="text-4xl Title mt-2">Network Managment</h2>
