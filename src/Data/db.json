@@ -3,7 +3,7 @@
     "projects": [
         {
             "name": "MMBB.ES",
-            "link": "mmbb",
+            "link": "https://mmbb.es",
             "text": "MMBB.ES is a project that was made for a company of cleaning in Spain, using a template in Wordpress and multiple plugins for good eficienty",
             "image": "/assets/MMBB.webp"
         },
@@ -15,19 +15,19 @@
         },
         {
             "name": "Portfolio",
-            "link": "portfolio",
+            "link": "https://virgilio.macero.cl",
             "text": "This is my personal portfolio, built with React and Tailwind CSS, showcasing my skills and projects.",
             "image": "/assets/Virgilio-logo.svg"
         },
         {
             "name": "Nutri Macero",
-            "link": "nutri-macero",
+            "link": "https://nutri.macero.cl",
             "text": "This is a nutrition app built with React and TypeScript, helping users track their food intake and exercise.",
             "image": "/assets/Nutri-Macero.webp"
         },
         {
             "name": "Miami Youth Orchestra",
-            "link": "miami-youth-orchestra",
+            "link": "https://www.myomiami.org/",
             "text": "This is a music education platform built in WIX, helping students learn and practice music.",
             "image": "/assets/Miami-Youth-Orchestra.webp"
         },
