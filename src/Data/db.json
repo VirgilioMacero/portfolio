@@ -5,37 +5,37 @@
             "name": "MMBB.ES",
             "link": "mmbb",
             "text": "MMBB.ES is a project that was made for a company of cleaning in Spain, using a template in Wordpress and multiple plugins for good eficienty",
-            "image": "public/assets/MMBB.webp"
+            "image": "../assets/MMBB.webp"
         },
         {
             "name": "Movie Watch List",
             "link": "movie-watch-list",
             "text": "This is a movie watch list application built with React and TypeScript, allowing users to search for movies and save their favorites.",
-            "image": "public/assets/Movie-Watch-List.webp"
+            "image": "../assets/Movie-Watch-List.webp"
         },
         {
             "name": "Portfolio",
             "link": "portfolio",
             "text": "This is my personal portfolio, built with React and Tailwind CSS, showcasing my skills and projects.",
-            "image": "public/assets/Virgilio-logo.svg"
+            "image": "../assets/Virgilio-logo.svg"
         },
         {
             "name": "Nutri Macero",
             "link": "nutri-macero",
             "text": "This is a nutrition app built with React and TypeScript, helping users track their food intake and exercise.",
-            "image": "public/assets/Nutri-Macero.webp"
+            "image": "../assets/Nutri-Macero.webp"
         },
         {
             "name": "Miami Youth Orchestra",
             "link": "miami-youth-orchestra",
             "text": "This is a music education platform built in WIX, helping students learn and practice music.",
-            "image": "public/assets/Miami-Youth-Orchestra.webp"
+            "image": "../assets/Miami-Youth-Orchestra.webp"
         },
         {
             "name": "Cyber Do It",
             "link": "cyber-do-it",
             "text": "This is a WebPage for a company of IT in Miami, using a template in Wordpress and multiple plugins for good eficienty and performance.",
-            "image": "public/assets/Cyber-Do-It.webp"
+            "image": "../assets/Cyber-Do-It.webp"
         }
     ]
 }
