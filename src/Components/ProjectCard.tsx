@@ -30,26 +30,51 @@ export default function ProjectCard({
       )}
 
       <div className="w-full relative">
-        <Link
-          to={`/projects/${linkToProject}`}
-          className="flex flex-row text-xl Card-Link justify-end text-[#100E8D]"
-        >
-          more{"  "}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="currentColor"
-            className="h-6"
+        {linkToProject?.includes("https") || linkToProject?.includes("http") ? (
+          <a
+            href={linkToProject}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-row text-xl Card-Link justify-end text-[#100E8D]"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-            />
-          </svg>
-        </Link>
+            more{"  "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </a>
+        ) : (
+          <Link
+            to={`/projects/${linkToProject}`}
+            className="flex flex-row text-xl Card-Link justify-end text-[#100E8D]"
+          >
+            more{"  "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </Link>
+        )}
       </div>
     </div>
   );
