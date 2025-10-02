@@ -15,7 +15,7 @@ export default function ContactForm() {
       <h1 className="Segment-Title justify-end text-5xl">Contact Me</h1>
       <form
         className="mt-10 w-[20vw]"
-        onSubmit={async (e) => {
+        onSubmit={async () => {
           console.log("Sending email with the following data:", values);
           await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/sendMail`, {
             method: "POST",
