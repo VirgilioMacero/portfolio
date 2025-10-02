@@ -37,7 +37,7 @@ export default function ProjectCard({
             rel="noopener noreferrer"
             className="flex flex-row text-xl Card-Link justify-end text-[#100E8D]"
           >
-            more{"  "}
+            Show{"  "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -58,7 +58,7 @@ export default function ProjectCard({
             to={`/projects/${linkToProject}`}
             className="flex flex-row text-xl Card-Link justify-end text-[#100E8D]"
           >
-            more{"  "}
+            Show{"  "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

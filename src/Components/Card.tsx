@@ -7,7 +7,7 @@ export default function Card({ text }: { text: string }) {
           href=""
           className="flex flex-row text-xl Card-Link justify-end text-[#100E8D]"
         >
-          more{"  "}
+          Show{"  "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

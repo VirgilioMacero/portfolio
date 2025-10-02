@@ -9,7 +9,7 @@
         },
         {
             "name": "Movie Watch List",
-            "link": "movie-watch-list",
+            "link": "https://virgilio.macero.cl/projects/movie-watch-list",
             "text": "This is a movie watch list application built with React and TypeScript, allowing users to search for movies and save their favorites.",
             "image": "/assets/Movie-Watch-List.webp"
         },
