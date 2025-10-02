@@ -7,10 +7,15 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "api": "node ./api/index.js",
     "preview": "vite preview"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
     "motion": "^11.15.0",
+    "nodemailer": "^7.0.6",
     "portfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
